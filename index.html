@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decentralized Twitter Clone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Decentralized Twitter Clone</h1>
+    <button id="connect-wallet">Connect Wallet</button>
+    <p id="user-profile"></p>
+  </header>
+  <main>
+    <form id="create-post-form">
+      <input id="create-post-input" type="text" placeholder="What's happening?">
+      <button type="submit">Tweet</button>
+    </form>
+    <div id="post-list"></div>
+    <button id="load-more-posts">Load More Posts</button>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
